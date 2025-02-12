@@ -1,3 +1,29 @@
+# 🧾 9/11 Billing System  
+
+9/11 Billing System is an advanced invoice and billing management application designed to streamline product management, customer transactions, and invoice generation. The system ensures efficient record-keeping, real-time invoice creation, and seamless product data storage for businesses.  
+
+---
+
+## 🚀 Features  
+
+✅ **Real-Time Invoice Generation** – Automatically generate and preview invoices before printing.  
+✅ **Product & Customer Management** – Add, edit, and manage product listings and customer details.  
+✅ **Database Integration** – Ensures permanent storage of products and billing records.  
+✅ **Customizable Invoice Format** – Provides structured PDF export with business details, timestamps, and itemized breakdowns.  
+✅ **Dark Mode Support** – Enhances UI accessibility with a toggle for light/dark mode.  
+✅ **Error Handling & Validation** – Ensures accurate billing and prevents incorrect entries.  
+✅ **Multi-Format Export** – Save invoices in `.pdf`, `.csv`, and `.xlsx` for accounting use.  
+
+---
+
+## 🛠️ Installation  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/dhaksdhakshin/9-11-billing-system.git
+cd 9-11-billing-system
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
