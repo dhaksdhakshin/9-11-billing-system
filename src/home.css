@@ -1,0 +1,92 @@
+/* Base Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+body {
+  background-color: #f8fafc; /* Light background for light mode */
+}
+
+body.dark {
+  background-color: #1a202c; /* Dark background for dark mode */
+  color: #edf2f7;
+}
+
+/* Home Component Specific Styles */
+
+/* Background and animation */
+.animated-background {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Title and subtitle animation */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate__fadeInDown {
+  animation: fadeInDown 0.8s ease-out;
+}
+
+.animate__fadeIn {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Card and link hover effects */
+.card-link {
+  @apply flex items-center justify-between p-4 rounded-lg shadow-md transition-transform duration-200;
+}
+
+.card-link:hover {
+  transform: scale(1.05);
+}
+
+/* Dark mode */
+.dark .text-gray-900 {
+  color: #edf2f7;
+}
+
+.dark .text-gray-700 {
+  color: #a0aec0;
+}
+
+.dark .bg-white {
+  background-color: #2d3748;
+}
+
+.dark .hover\:bg-blue-700:hover {
+  background-color: #2b6cb0;
+}
+
+.dark .hover\:bg-green-700:hover {
+  background-color: #2f855a;
+}
+
+.dark .hover\:bg-orange-700:hover {
+  background-color: #c05621;
+}
+
+.dark .hover\:bg-purple-700:hover {
+  background-color: #6b46c1;
+}

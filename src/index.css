@@ -1,0 +1,155 @@
+/* src/index.css */
+
+body {
+  font-family: Arial, sans-serif; /* Set a base font */
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #2c3e50; /* Heading color */
+  text-align: center; /* Center heading */
+  margin-top: 20px; /* Spacing above heading */
+}
+
+nav {
+  background-color: #007bff; /* Navbar background color */
+  padding: 10px; /* Navbar padding */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items */
+}
+
+nav ul li {
+  margin: 0 15px; /* Spacing between menu items */
+}
+
+nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+table {
+  width: 100%; /* Full width */
+  margin-top: 20px; /* Space above table */
+  border-collapse: collapse; /* Collapse borders */
+}
+
+th, td {
+  padding: 12px; /* Padding inside cells */
+  border: 1px solid #ddd; /* Light border color */
+  text-align: left; /* Align text to the left */
+}
+
+th {
+  background-color: #f2f2f2; /* Header background color */
+}
+
+tr:hover {
+  background-color: #f5f5f5; /* Light grey background on hover */
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Match navbar color */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Add focus outline */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Stack items vertically */
+  }
+}
+/* index.css or a dedicated CSS file */
+@media print {
+  .hide-on-print {
+    display: none;
+  }
+}
+/* index.css or a dedicated CSS file */
+@media print {
+  .hide-on-print {
+    display: none;
+  }
+}
+
+.text-white {
+  color: white; /* White text for dark mode */
+}
+
+.text-black {
+  color: black; /* Black text for light mode */
+}
+
+.toggle-bg {
+  background-color: #d1d5db; /* Light mode background for toggle */
+}
+
+.toggle-dot {
+  background-color: white; /* Light mode toggle dot */
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #1a1a1a; /* Dark background */
+  color: white; /* Light text color */
+}
+
+nav.dark {
+  background-color: #1a202c; /* Darker gray for dark mode */
+}
+
+.toggle-bg.dark {
+  background-color: #4b5563; /* Dark mode background for toggle */
+}
+
+.toggle-dot.dark {
+  background-color: #fff; /* Light mode toggle dot */
+}
+
+/* Additional Styles for the toggle switch */
+.toggle-bg {
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.toggle-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: transform 0.3s;
+}
+
+.toggle-dot.dark {
+  transform: translateX(30px);
+}

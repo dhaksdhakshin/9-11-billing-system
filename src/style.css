@@ -1,0 +1,70 @@
+/* src/index.css */
+
+/* Base styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition for body */
+}
+
+/* Light Mode Styles */
+body {
+  background-color: white;
+  color: black;
+}
+
+nav {
+  background-color: #2d3748; /* Gray-800 */
+  transition: background-color 0.3s ease;
+}
+
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+/* Dark Mode Styles */
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+nav.bg-gray-800.dark {
+  background-color: #1a202c; /* Darker gray for dark mode */
+}
+
+button.light {
+  background-color: #007bff; /* Light mode button color */
+  color: white;
+}
+
+button.dark {
+  background-color: #1a202c; /* Dark mode button color */
+  color: white;
+}
+
+a.light {
+  color: blue; /* Light mode link color */
+}
+
+a.dark {
+  color: lightblue; /* Dark mode link color */
+}
+
+/* Additional Styles */
+.bg-gray-800 {
+  background-color: #2d3748; /* Example gray color */
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+/* Optional: Additional styles can be added below */
