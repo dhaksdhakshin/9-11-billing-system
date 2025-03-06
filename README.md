@@ -18,7 +18,7 @@
 
 ## 🛠️ Installation.
 
-### 1️⃣ Clone the Repository  
+### 1️⃣ Clone the Repository   
 ```bash
 git clone https://github.com/dhaksdhakshin/9-11-billing-system.git
 cd 9-11-billing-system
