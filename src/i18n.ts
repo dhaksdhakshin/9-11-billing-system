@@ -22,7 +22,7 @@ const resources = {
       darkMode: "Dark Mode",
       notifications: "Notifications",
       language: "Language", 
-      profile: "Profile",
+      profile: "Profile", 
       showProfile: "Show Profile",
       hideProfile: "Hide Profile",
       enterName: "Enter your name",
