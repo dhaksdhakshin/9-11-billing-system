@@ -17,7 +17,7 @@ const resources = {
       addInvoice: "Add Invoice",
       manageProducts: "Manage your product listings here.",
       viewReports: "View business reports here.",
-      accountReset: "Reset Account",
+      accountReset: "Reset Account", 
       preferences: "Preferences",
       darkMode: "Dark Mode",
       notifications: "Notifications",
