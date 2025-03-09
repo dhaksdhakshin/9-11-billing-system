@@ -16,7 +16,7 @@ body.dark {
 /* Home Component Specific Styles */
 
 /* Background and animation */
-.animated-background {
+.animated-background { 
   position: absolute;
   inset: 0; 
   background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
