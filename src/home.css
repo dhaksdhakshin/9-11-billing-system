@@ -19,7 +19,7 @@ body.dark {
 .animated-background { 
   position: absolute;
   inset: 0; 
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); 
   opacity: 0.5; 
   z-index: 1;
 }
