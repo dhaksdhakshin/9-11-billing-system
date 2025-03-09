@@ -21,7 +21,7 @@ const resources = {
       preferences: "Preferences",
       darkMode: "Dark Mode",
       notifications: "Notifications",
-      language: "Language",
+      language: "Language", 
       profile: "Profile",
       showProfile: "Show Profile",
       hideProfile: "Hide Profile",
